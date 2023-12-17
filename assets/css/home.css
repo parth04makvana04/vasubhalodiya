@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: "Maragsa";
-    src: url("/fonts/Maragsâ-Display.otf");
+    src: url("./fonts/Maragsâ-Display.otf");
 }
 
 a {
