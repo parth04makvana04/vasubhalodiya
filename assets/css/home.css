@@ -12,17 +12,13 @@ body {
 
 @font-face {
     font-family: "Maragsa";
-    src: url("./fonts/Maragsâ-Display.otf");
+    src: url("/fonts/Maragsâ-Display.otf");
 }
 
 a {
     color: white;
     text-decoration: none;
     text-decoration: underline;
-}
-
-p {
-    cursor: url(./Images/Cursors/Cursor_Text.svg) 15 15, text;
 }
 
 :root {
@@ -45,17 +41,8 @@ p {
     color: var(--highlight-color);
 }
 
-body {
-    overflow: hidden;
-    cursor: url("./Images/Cursors/Cursor_Default.svg") 15 15, auto;
-}
-
 * {
     box-sizing: border-box;
-}
-
-a {
-    cursor: url("./Images/Cursors/Cursor_Pointer.svg") 15 15, pointer;
 }
 
 /* body {

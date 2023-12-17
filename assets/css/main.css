@@ -248,7 +248,7 @@ html {
 
 @font-face {
     font-family: Maragsa;
-    src: url(/static/images/Maragsa%CC%82-Display.be3bebbe3d2474c7f666.otf)
+    src: url(fonts/Maragsâ-Display.otf)
 }
 
 a {
@@ -427,12 +427,12 @@ body {
     -moz-user-drag: none;
     -o-user-drag: none;
     aspect-ratio: 1/1;
-    /* background-image: url(assets/images/HeroAnim.svg); */
+    background-image: url(/assets/images/HeroAnim.svg);
     background-position: 905% 25%;
     background-repeat: no-repeat;
     background-size: 99%;
     bottom: 0;
-    box-shadow: 40px -40px 50px 30px var(--primary-color) inset;
+    box-shadow: 40px -40px 50px 30px #1f2028 inset;
     min-width: 200px;
     object-fit: cover;
     pointer-events: none;
