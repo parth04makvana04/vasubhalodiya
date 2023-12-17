@@ -1,7 +1,7 @@
 .header {
     align-items: center;
     background-color: var(--primary-color);
-    background-image: url(assets/images/Grid\ Overlay.png);
+    background-image: url(/assets/images/Grid\ Overlay.png);
     background-position: 50%;
     border-bottom: 1px solid #67a9e7;
     border-image: linear-gradient(90deg, #ffce85 -19.13%, #67a9e7 39.21%) 1;
