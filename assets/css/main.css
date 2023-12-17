@@ -1,7 +1,7 @@
 .header {
     align-items: center;
     background-color: var(--primary-color);
-    background-image: url(assets/media/Grid\ Overlay.png);
+    background-image: url(assets/images/Grid\ Overlay.png);
     background-position: 50%;
     border-bottom: 1px solid #67a9e7;
     border-image: linear-gradient(90deg, #ffce85 -19.13%, #67a9e7 39.21%) 1;
@@ -230,7 +230,7 @@
         transition-duration: 1.5s
     }
     .button:hover {
-        cursor: url(/static/media/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer
+        cursor: url(/static/images/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer
     }
 }
 
@@ -248,7 +248,7 @@ html {
 
 @font-face {
     font-family: Maragsa;
-    src: url(/static/media/Maragsa%CC%82-Display.be3bebbe3d2474c7f666.otf)
+    src: url(/static/images/Maragsa%CC%82-Display.be3bebbe3d2474c7f666.otf)
 }
 
 a {
@@ -258,7 +258,7 @@ a {
 }
 
 p {
-    cursor: url(/static/media/Cursor_Text.d0dfe6bdf9e215251bdf.svg) 15 15, text
+    cursor: url(/static/images/Cursor_Text.d0dfe6bdf9e215251bdf.svg) 15 15, text
 }
 
 :root {
@@ -283,7 +283,7 @@ p {
 }
 
 body {
-    cursor: url(/static/media/Cursor_Default.5ece4a85a2db1ed984e5.svg) 15 15, auto;
+    cursor: url(/static/images/Cursor_Default.5ece4a85a2db1ed984e5.svg) 15 15, auto;
     overflow: hidden
 }
 
@@ -292,13 +292,13 @@ body {
 }
 
 a {
-    cursor: url(/static/media/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer
+    cursor: url(/static/images/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer
 }
 
 body {
     background-color: #1f2028;
     background-color: var(--primary-color);
-    background-image: url(/static/media/Grid%20Overlay.832f42f3df4436f46ab5.png);
+    background-image: url(/static/images/Grid%20Overlay.832f42f3df4436f46ab5.png);
     background-position: 50%;
     transition-duration: .2s
 }
@@ -427,7 +427,7 @@ body {
     -moz-user-drag: none;
     -o-user-drag: none;
     aspect-ratio: 1/1;
-    background-image: url(assets/media/HeroAnim.svg);
+    background-image: url(assets/images/HeroAnim.svg);
     background-position: 905% 25%;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -972,11 +972,11 @@ body {
 
 .projectCard .infoSection p,
 span {
-    cursor: url(/static/media/Cursor_Text.d0dfe6bdf9e215251bdf.svg) 15 15, text
+    cursor: url(/static/images/Cursor_Text.d0dfe6bdf9e215251bdf.svg) 15 15, text
 }
 
 .projectCard:hover {
-    cursor: url(/static/media/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer;
+    cursor: url(/static/images/Cursor_Pointer.0d702edf0bac4488dba4.svg) 15 15, pointer;
     -webkit-transform: skew(0deg, 0deg);
     transform: skew(0deg, 0deg)
 }
@@ -1083,7 +1083,7 @@ span {
 }
 
 .noiseOverlay {
-    background: url(/static/media/Noise.0b536cb82aa2ac803640.png);
+    background: url(/static/images/Noise.0b536cb82aa2ac803640.png);
     bottom: 0;
     height: 100vh;
     left: 0;
