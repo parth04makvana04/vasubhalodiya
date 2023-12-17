@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    padding: 24px 15vw;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background-color: var(--primary-color);
+    background-image: url("./../../Images/Grid\ Overlay.png");
+    background-position: center;
+    border-bottom: #67a9e7 1px solid;
+    border-image: linear-gradient(90deg, #ffce85 -19.13%, #67a9e7 39.21%) 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.sideNav {
+    position: absolute;
+    right: 0%;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    background: linear-gradient(91.64deg, #ffce85 0.84%, #67a9e7 96.54%);
+    box-shadow: 0px 4px 154px #6eaae1, inset 56px -5px 150px #ffffff, inset 50px 4px 104px #ffce85;
+    height: 100vh;
+    /* width: 100vw; */
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sideHeader {
+    display: flex;
+    padding: 24px 36px;
+    /* background-color: rgb(196, 110, 110); */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.8;
+}
+
+.right {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.sideHeader a {
+    text-decoration: none;
+    color: var(--primary-color);
+    line-height: 0.8;
+}
+
+.sideContent {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: right;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.sideContent a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sideContent .activeLink {
+    text-decoration: line-through;
+    color: #606d79;
+}
+
+.sideNav .closebtn {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+.navLinkDesktop {
+    text-decoration: none;
+    color: #ffffffa8;
+    transition-duration: 1s;
+}
+
+.activeDesktop {
+    font-weight: 550;
+    color: white;
+}
+
+.header .left {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header .right a {
+    margin-left: 20px;
+}
+
+@media (hover: hover) {
+    .navLinkDesktop:hover {
+        color: #fff;
+        transition-duration: 1s;
+    }
+}
+
+.header .right img {
+    margin-left: 20px;
+    display: none;
+}
+
+@media screen and (max-width: 868px) {
+    .header .right img {
+        display: block;
+    }
+    .header .right a {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.fullWidth {
+    width: "100vw";
+    background: linear-gradient(91.64deg, #ffce85 0.84%, #67a9e7 96.54%);
+    box-shadow: 0px 4px 154px #6eaae1, inset 56px -5px 150px #ffffff, inset 50px 4px 104px #ffce85;
+    display: block;
+    overflow: hidden;
+}
+
+.zeroWidth {
+    width: "0";
+    background-color: #67a9e7;
+    box-shadow: 0px 4px 154px #6eaae1, inset 56px -5px 150px #ffffff, inset 50px 4px 104px #ffce85;
+    display: block;
+    overflow: hidden;
+}

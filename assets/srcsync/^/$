@@ -1,0 +1,110 @@
+var map = {
+	"./": 4418,
+	"./Components/Button/button": 7237,
+	"./Components/Button/button.css": 8418,
+	"./Components/Button/button.js": 7237,
+	"./Components/Chip/chip": 232,
+	"./Components/Chip/chip.css": 5388,
+	"./Components/Chip/chip.js": 232,
+	"./Components/Cursor/cursor": 3901,
+	"./Components/Cursor/cursor.css": 2912,
+	"./Components/Cursor/cursor.js": 3901,
+	"./Components/Divider/divider": 2537,
+	"./Components/Divider/divider.css": 8281,
+	"./Components/Divider/divider.js": 2537,
+	"./Components/Icon/icon": 2480,
+	"./Components/Icon/icon.js": 2480,
+	"./Components/Noise/noise": 1428,
+	"./Components/Noise/noise.css": 1277,
+	"./Components/Noise/noise.js": 1428,
+	"./Images/Cursors/Cursor_Default.svg": 9066,
+	"./Images/Cursors/Cursor_Pointer.svg": 5464,
+	"./Images/Cursors/Cursor_Text.svg": 4308,
+	"./Images/Fish.svg": 8590,
+	"./Images/Grid Overlay.png": 3714,
+	"./Images/HeroAnim.svg": 9453,
+	"./Images/Noise.png": 7430,
+	"./Images/Projects/work1.PNG": 1039,
+	"./Images/Projects/work2.PNG": 7941,
+	"./Images/Projects/work3.PNG": 2739,
+	"./Images/Projects/work4.PNG": 9038,
+	"./Images/Projects/work5.PNG": 1870,
+	"./Images/Projects/work6.png": 4162,
+	"./Images/Projects/work7.PNG": 6651,
+	"./Images/Projects/work8.PNG": 6654,
+	"./Images/Projects/workCRGrid.png": 390,
+	"./Images/Projects/workDefineGrid.png": 4169,
+	"./Images/Projects/workDefineWeb.png": 1162,
+	"./Images/Projects/workGenerator.png": 4298,
+	"./Images/aboutAnim.gif": 7795,
+	"./Images/aboutImage.png": 9386,
+	"./Images/ball.svg": 9578,
+	"./Images/ball2.svg": 5280,
+	"./Images/ball3.svg": 2771,
+	"./Images/boxAnim.svg": 7322,
+	"./Images/heroImage.png": 586,
+	"./Images/heroImageolx.png": 6403,
+	"./Images/ji.svg": 7440,
+	"./Images/menu.svg": 2051,
+	"./Screens/AboutShort/aboutShort": 209,
+	"./Screens/AboutShort/aboutShort.css": 8124,
+	"./Screens/AboutShort/aboutShort.js": 209,
+	"./Screens/CallToAction/CTA": 2108,
+	"./Screens/CallToAction/CTA.css": 4074,
+	"./Screens/CallToAction/CTA.js": 2108,
+	"./Screens/FishTank/fishtank": 3259,
+	"./Screens/FishTank/fishtank.css": 7679,
+	"./Screens/FishTank/fishtank.js": 3259,
+	"./Screens/Footer/footer": 6596,
+	"./Screens/Footer/footer.css": 7034,
+	"./Screens/Footer/footer.js": 6596,
+	"./Screens/Hero/hero": 582,
+	"./Screens/Hero/hero.css": 9809,
+	"./Screens/Hero/hero.js": 582,
+	"./Screens/NavBar/header": 6718,
+	"./Screens/NavBar/header.css": 9393,
+	"./Screens/NavBar/header.js": 6718,
+	"./Screens/NavBar/headerCont": 6664,
+	"./Screens/NavBar/headerCont.js": 6664,
+	"./Screens/NavBar/navFunctions": 2044,
+	"./Screens/NavBar/navFunctions.js": 2044,
+	"./Screens/NavBar/sideNav": 1525,
+	"./Screens/NavBar/sideNav.js": 1525,
+	"./home": 8726,
+	"./home.css": 4550,
+	"./home.js": 8726,
+	"./index": 4418,
+	"./index.js": 4418,
+	"./project": 6849,
+	"./project.css": 3264,
+	"./project.js": 6849,
+	"./projectMain": 8734,
+	"./projectMain.js": 8734,
+	"./projectShort": 4095,
+	"./projectShort.js": 4095,
+	"./utils/Navaneeth Venu-Resume-July 2022.pdf": 1132,
+	"./utils/iconLib": 643,
+	"./utils/iconLib.js": 643,
+	"./utils/projectData": 533,
+	"./utils/projectData.js": 533
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 8116;

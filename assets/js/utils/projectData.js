@@ -1,0 +1,92 @@
+var projectData = {
+    projects: [{
+            name: "Attendo for Teachers",
+            year: 2023,
+            type: ["Flutter Development", "Product Design"],
+            imageURL: "Images/Projects/work7.PNG",
+            projectURL: "https://rebrand.ly/attendoapp",
+            descShort: "This is an attendance tracking app created to help ease the tracking of student attendance for teachers in both online as well as offline mode.",
+        },
+        {
+            name: "Generator | Figma Plugin",
+            year: 2021,
+            type: ["Product Design", "Branding", "Figma Plugin Development"],
+            imageURL: "Images/Projects/workGenerator.png",
+            projectURL: "https://www.figma.com/community/plugin/1080463959503253221/Generator",
+            descShort: "Generator is a figma plugin that allows users to generate designs based on a CSV file. It works by taking in the layer names of the design and text layers, and replacing the contents of the text layers with variables from the CSV data, enabling users to quickly create multiple variations of a design",
+        },
+        {
+            name: "Define'22 Brand",
+            imageURL: "Images/Projects/workDefineGrid.png",
+            year: 2022,
+            type: ["Branding"],
+            projectURL: "https://www.instagram.com/definehack/?theme=dark",
+            descShort: "Cohesive Visual identity and Brand strategy for the hackathon, Define'22",
+        },
+        {
+            name: "Define'22 Website",
+            imageURL: "Images/Projects/workDefineWeb.png",
+            year: 2022,
+            type: ["Branding", "Web Development (React)"],
+            projectURL: "https://www.instagram.com/definehack/?theme=dark",
+            descShort: "Official Website for the hackathon,  Define'22. ",
+        },
+        {
+            name: "Crossroads'22 Brand",
+            imageURL: "Images/Projects/workCRGrid.png",
+            year: 2022,
+            type: ["Branding"],
+            projectURL: "https://www.instagram.com/crossroadsmbcet/?theme=dark",
+            descShort: "Cohesive Visual identity and Brand strategy for the cultural fest, Crossroads'22",
+        },
+
+        {
+            name: "Blupe",
+            year: 2020,
+            type: ["Product Design", "Branding"],
+            imageURL: "Images/Projects/work8.PNG",
+            projectURL: "https://play.google.com/store/apps/details?id=me.aravind.blupespace&hl=en_IN&gl=US&pli=1",
+            descShort: "Blupe is an easy-to-use video meeting platform that offers a safe and secure custom server and features such as raising hands and streaming to YouTube.",
+        },
+        {
+            name: "Stream Links Page",
+            year: 2019,
+            type: ["Web Development", "Branding"],
+            imageURL: "Images/Projects/work1.PNG",
+            projectURL: "https://alternaet.ga/guess",
+            descShort: "This is a sample music page created to display the links to all streaming platforms for a particular song",
+        },
+        {
+            name: "Colour Randomiser",
+            imageURL: "Images/Projects/work2.PNG",
+            projectURL: "https://navaneethvenu.github.io/colour-randomizer/",
+            descShort: "A Beginner Level Project made with Pure HTML/CSS/JS to generate Random Colours and their Colour Codes",
+        },
+        {
+            name: "Tic Tac Toe",
+            imageURL: "Images/Projects/work3.PNG",
+            projectURL: "https://navaneethvenu.github.io/tictactoe/",
+            descShort: "A Beginner Level UI Centric Recreation of the Famous Tic Tac Toe game made with Pure HTML/CSS/JS ",
+        },
+        {
+            name: "Thea Rosa",
+            imageURL: "Images/Projects/work4.PNG",
+            projectURL: "https://www.behance.net/gallery/114374589/Thea-Rosa-Twine-Logo-Design-Challenge-1-2021",
+            descShort: "A Brand Identity Project as part of the Twine Logo Design Challenge",
+        },
+        {
+            name: "Venemous Gaming",
+            imageURL: "Images/Projects/work5.PNG",
+            projectURL: "https://www.behance.net/gallery/114429409/Venemous-Gaming-Twine-Logo-Design-Challenge-4-2021",
+            descShort: "A Brand Identity Project as part of the Twine Logo Design Challenge",
+        },
+        {
+            name: "Beyond Gravity",
+            imageURL: "Images/Projects/work6.PNG",
+            projectURL: "https://www.behance.net/gallery/114877423/Beyond-Gravity-Twine-Logo-Design-Challenge-4-2021",
+            descShort: "A Brand Identity Project as part of the Twine Logo Design Challenge",
+        },
+    ],
+};
+
+export default projectData;
