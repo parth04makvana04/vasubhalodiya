@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: "Maragsa";
-    src: url("/assets/media/Maragsâ-Display.otf");
+    src: url("assets/media/Maragsâ-Display.otf");
 }
 
 a {
@@ -61,7 +61,7 @@ a {
 /* body {
     background-color: var(--primary-color);
     background-image: url(".Images/Grid\ Overlay.png");
-    background-image: url(/assets/media/Grid\ Overlay.png);
+    background-image: url(assets/media/Grid\ Overlay.png);
     background-position: center;
     background-size: 400px 400px;
     transition-duration: 0.2s;
@@ -70,7 +70,7 @@ a {
 .square-bg
 {
     background-color: var(--primary-color);
-    background-image: url(/assets/media/Grid\ Overlay.png);
+    background-image: url(assets/media/Grid\ Overlay.png);
     background-position: center;
     /* background-size: 400px 400px; */
     transition-duration: 0.2s;
