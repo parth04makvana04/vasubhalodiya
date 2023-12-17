@@ -427,7 +427,7 @@ body {
     -moz-user-drag: none;
     -o-user-drag: none;
     aspect-ratio: 1/1;
-    background-image: url(/assets/media/HeroAnim.svg);
+    background-image: url(assets/media/HeroAnim.svg);
     background-position: 905% 25%;
     background-repeat: no-repeat;
     background-size: 99%;
