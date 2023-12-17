@@ -500,7 +500,7 @@ body {
     .heroImg {
         background-position: 275% 25%;
         background-size: 95%;
-        box-shadow: 40px -10px 50px 30px var(--primary-color) inset;
+        box-shadow: 40px -40px 50px 30px #1f2028 inset;
         left: 50%;
         -webkit-transform: translate(-50%);
         transform: translate(-50%);
